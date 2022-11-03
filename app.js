@@ -9,8 +9,8 @@ buttons.forEach(button =>{
         const buttonTop = e.target.offsetTop
         const buttonLeft = e.target.offsetLeft;
     
-        const xInside = x -buttonLeft
-        const yInside = y -buttonTop
+        const xInside = x - buttonLeft
+        const yInside = y - buttonTop
 
         console.log(xInside, yInside)
 
@@ -19,6 +19,6 @@ buttons.forEach(button =>{
         circle.style.top = yInside + 'px'
         circle.style.left = xInside + 'px'
 
-        this.appendChold(circle)
+        this.appendChild(circle)
     })
 })
